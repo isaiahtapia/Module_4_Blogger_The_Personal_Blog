@@ -24,13 +24,13 @@ function createNote(eventObj) {
     //Create a date value index
     const dateObj = new Date();
 
-    //Get the month from the date object
+    //Gets the month from the date object
     const month = dateObj.getMonth() + 1;
 
-    //Get date from date object
+    //Gets date from date object
     const date = dateObj.getDate();
 
-    //Get the year from the date object
+    //Gets the year from the date object
     const year = dateObj.getFullYear();
 
     //Gets all the date components into one string 
